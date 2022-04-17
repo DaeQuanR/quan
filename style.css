@@ -76,9 +76,9 @@ nav {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .nav-links {
@@ -92,7 +92,7 @@ nav {
     align-items: center;
     width: 45%;
     transform: translateX(100%);
-    transition: 0.9s ease-in-out;
+    transition: transform 0.9s ease-in;
   }
 
   .nav-links li {
@@ -105,6 +105,8 @@ nav {
 
 .nav-active {
   transform: translateX(0%);
+  z-index: 1;
+  opacity: 1;
 }
 
 @keyframes navLinkFade {
@@ -129,6 +131,8 @@ nav {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/*Home*/
 
 .slider {
   width: 100%;
