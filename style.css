@@ -79,10 +79,11 @@ nav {
   html,
   body {
     overflow-x: hidden;
+    position: fixed;
   }
 
   .nav-links {
-    position: fixed;
+    position: absolute;
     right: 0px;
     height: 92vh;
     top: 8vh;
