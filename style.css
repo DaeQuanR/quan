@@ -156,7 +156,7 @@ nav {
     transition: transform 0.9s ease-in;
     z-index: 1;
     max-width: -0.9vh;
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .nav-links li {
