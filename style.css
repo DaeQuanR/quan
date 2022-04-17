@@ -159,10 +159,11 @@ nav {
   .see {
     display: block;
   }
-}
 
-.nav-active {
-  transform: translateX(0%);
+  .nav-active {
+    transform: translateX(0%);
+    z-index: 1;
+  }
 }
 
 @keyframes navLinkFade {
