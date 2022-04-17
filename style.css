@@ -283,6 +283,13 @@ span {
   cursor: pointer;
 }
 
+.block {
+  display: block;
+  padding: 1em;
+  background-color: #111;
+  border-radius: 6px;
+}
+
 /*all similar styling content*/
 
 section {
@@ -330,7 +337,7 @@ section {
 
 .services .serv-content .card {
   width: calc(33% - 20px);
-  background: #222;
+  background: #111;
   text-align: center;
   border-radius: 6px;
   padding: 20px 25px;
