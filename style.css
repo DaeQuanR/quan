@@ -152,7 +152,8 @@ nav {
     align-items: center;
     width: 45%;
     transform: translateX(100%);
-    transform: translateX(2);
+    transform: translateX(0%);
+    overflow: hidden;
     transition: transform 0.9s ease-in;
     z-index: 1;
     max-width: -0.9vh;
