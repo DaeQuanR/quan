@@ -81,7 +81,6 @@ nav {
   min-height: 7vh;
   background-color: black;
   font-family: "Poppins", sans-serif;
-  opacity: 2;
 }
 
 .logo {
@@ -127,7 +126,6 @@ nav {
   height: 3px;
   background-color: rgb(105, 103, 103);
   margin: 5px;
-  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {
@@ -140,34 +138,32 @@ nav {
   body {
     overflow-x: hidden;
   }
-  /* where to fix navbar*/
+
   .nav-links {
-    position: fixed;
+    position: absolute;
     right: 0px;
-    height: 86vh;
+    height: 92vh;
     top: 8vh;
-    bottom: 100%;
     background-color: black;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 45%;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
+    transform: translateX(100%);
+    transition: 0.9s ease-in-out;
   }
 
   .nav-links li {
     opacity: 0;
   }
-
   .see {
     display: block;
   }
+}
 
-  .nav-active {
-    transform: translateX(0%);
-    z-index: 1;
-  }
+.nav-active {
+  transform: translateX(0%);
+  z-index: 1;
 }
 
 @keyframes navLinkFade {
