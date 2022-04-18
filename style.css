@@ -12,8 +12,7 @@
 
 .small {
   height: 21mm;
-  width: 75mm;
-  float: left;
+  width: 65mm;
 }
 
 nav {
@@ -80,6 +79,7 @@ nav {
   html,
   body {
     overflow-x: hidden;
+    background-color: black;
   }
 
   .nav-links {
