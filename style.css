@@ -79,8 +79,7 @@ nav {
 @media screen and (max-width: 768px) {
   body,
   html {
-    overflow: hidden;
-    max-width: 100%;
+    overflow: hidden !important;
   }
 
   .nav-links {
