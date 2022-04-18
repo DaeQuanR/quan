@@ -77,10 +77,9 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  html,
-  body {
+  body,
+  html {
     overflow-x: hidden;
-    -webkit-overflow-scrolling: auto !important;
   }
 
   .nav-links {
