@@ -13,6 +13,7 @@
 .small {
   height: 21mm;
   width: 75mm;
+  float: left;
 }
 
 nav {
@@ -82,7 +83,7 @@ nav {
   }
 
   .nav-links {
-    position: fixed;
+    position: absolute;
     right: 0px;
     height: 92vh;
     top: 8vh;
