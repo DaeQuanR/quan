@@ -79,10 +79,8 @@ nav {
 @media screen and (max-width: 768px) {
   body,
   html {
+    overflow-y: auto;
     overflow-x: hidden;
-    border-radius: 0px 0px 0px 30px;
-    width: 100%;
-    padding: 0px 0px 0px 0px;
   }
 
   .nav-links {
